@@ -1,0 +1,120 @@
+body {
+	font-family: Segoe UI;
+	background-color:#7F7F72
+}
+
+#titlepage h1 {
+	background-color: #404039;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 40px;
+	border: 2.5px solid #BFBFAA;
+	text-align: center;
+	color: #E5E5CC;
+	padding: 10px;
+}
+#wrapper {
+	overflow: hidden;
+	width: 464px;
+}
+#buttonstyles {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	border-radius: 3px;
+	clear: both;
+	text-align: center;
+}
+.buttonstyle  {
+	margin-right: 10px;
+	background-color: #B0B0B0;
+	color: #E5E5CC;
+	border-radius: 3px;
+	margin-bottom: 50px;
+	margin-left: 24px;
+}
+.row {
+	clear: both;
+	margin-bottom: 20px;
+}
+#row1 .text  {
+	height: 200px;
+}
+#row2 .text {
+	height: 600px;
+}
+#row3 .Edit {
+	height: 1000px
+}
+.text {
+	float: left;
+	width: 428px;
+	background-color: #BFBFAA;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	border: 2.5px solid #404039;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+#text1 {
+	margin-right: 15px;
+}
+#text2 {
+	
+}
+#text3 {
+	margin-right: 15px;
+}
+#text4 {
+	
+}
+#text5 {
+
+}
+.textRek {
+	margin-left: 5px;
+	float: left;
+	width: 412px;
+	background-color: #7F7962;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	border: 10px solid #333127;
+	border-radius: 6px;
+}
+.textIntrest {
+	float: left;
+	width: 428px;
+	background-color: #BFBFAA;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	border: 2.5px solid #404039;
+	border-radius: 3px;
+	margin-left: 5px;
+	height: 150px;
+}
+.Edit {
+	float: left;
+	width: 420px;
+	background-color: #7F7962;
+	text-align: center;
+	margin-bottom: 15px;
+	border: 5px solid #333127;
+	border-radius: 3px;
+	margin-left: 12px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+#HeadingBTW {
+	float: left;
+	width: 500px;
+	text-align: center;
+}
+#HeadingSOM {
+	float: left;
+	width: 500px;
+	text-align:center;
+}
