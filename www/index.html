@@ -137,7 +137,7 @@ var keuze, kapitaal, intrestvoet, tijd;
 //Gegevens vragen aan de gebruiker
 keuze = prompt("Jaren, Maanden of Dagen?", "kies een van de drie");
 
-if (keuze == "Jaren")
+if (keuze == "Jaren" || keuze == "jaren")
 {
 	kapitaal = prompt("Geef het kapitaal in:", "kapitaal");
 	kapitaal = parseFloat(kapitaal);
@@ -155,7 +155,7 @@ if (keuze == "Jaren")
 }
 else
 {
-	if (keuze == "Maanden") 
+	if (keuze == "Maanden" || keuze == "maanden") 
 	{
 		kapitaal = prompt("Geef het kapitaal in:", "kapitaal");
 		kapitaal = parseFloat(kapitaal);
@@ -173,7 +173,7 @@ else
 	}
 else
 {
-	if (keuze == "Dagen")
+	if (keuze == "Dagen" || keuze == "dagen")
 	{
 		kapitaal = prompt("Geef het kapitaal in:", "kapitaal");
 		kapitaal = parseFloat(kapitaal);
